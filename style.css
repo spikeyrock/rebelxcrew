@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Slant;
+  src: url(./SLANT.TTF);
+}
+@font-face {
+  font-family: Panton;
+  src: url(./Panton\ Bold.ttf);
+}
+
+
+body {
+  color: white;
+  font-family: 'Slant';
+  margin: 0;
+  text-align: center;
+  font-size: 35px;
+  max-height: 100vh;
+  box-sizing: border-box;
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+p {
+  /*font-size: 15px;*/
+}
+.header {
+  top: 45%;
+}
+.footer {
+  
+}
+.description {
+  color: gray;
+  padding-top: 50px;
+}
+a,
+a:hover,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+.disable-selection {
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  bottom: 3%;
+}
+
+.footer-content> ul >li{
+  list-style: none;
+  display: inline-flex;
+  padding: 1.2rem;
+  font-size: 1.3rem;
+  
+}
+.footer-content> ul{
+  width: 100%;
+  padding: 0;
+}
+
+.rebel{
+  /* padding-top: 3rem;*/
+  font-size: 3.5rem; 
+  line-height: 1.5rem;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+
+}
+
+.launch{
+  font-size: 1rem;
+}
+
+.pow{
+  position: absolute;
+  font-family: 'Panton';
+  font-size: 0.8rem;
+  bottom: 0;
+}
+
+.image{
+  padding-top: 2.5rem;
+  transform: scale(80%)
+}
+a{
+  cursor: pointer;
+}
